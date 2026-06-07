@@ -426,4 +426,115 @@ gap:15px;
 
 }
 
+}/* ====================================
+   REGISTRATION SECTION
+==================================== */
+
+.register {
+
+    padding: 100px 10%;
+
+    background: #F8FAFC;
+
+    text-align: center;
+
+}
+
+.register h2 {
+
+    font-size: 2.5rem;
+
+    color: #0F172A;
+
+    margin-bottom: 15px;
+
+}
+
+.register-subtitle {
+
+    font-size: 1.1rem;
+
+    color: #64748B;
+
+    margin-bottom: 40px;
+
+}
+
+/* ====================================
+   GOOGLE FORM CONTAINER
+==================================== */
+
+.google-form-container {
+
+    max-width: 950px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    border-top: 5px solid #C9A227;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.google-form-container iframe {
+
+    width: 100%;
+
+    min-height: 1184px;
+
+    border: none;
+
+    border-radius: 12px;
+
+}
+
+/* ====================================
+   HOVER EFFECT
+==================================== */
+
+.google-form-container:hover {
+
+    transform: translateY(-3px);
+
+    transition: all .3s ease;
+
+}
+
+/* ====================================
+   MOBILE
+==================================== */
+
+@media (max-width: 768px) {
+
+    .register {
+
+        padding: 70px 5%;
+
+    }
+
+    .register h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .google-form-container {
+
+        padding: 10px;
+
+    }
+
+    .google-form-container iframe {
+
+        min-height: 1300px;
+
+    }
+
 }
